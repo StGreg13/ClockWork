@@ -1,0 +1,273 @@
+html { overflow:  hidden; 
+}
+p, h1{
+    font-family:'Rubik';
+    color: #ffffff;
+}
+.hidden {
+    display: none;
+}
+.blur {
+    -webkit-filter: blur(5px);
+       -moz-filter: blur(5px);
+         -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+            filter: blur(5px);
+  }
+
+.background {
+    height: 100em;
+    background: url(img/backround.png) no-repeat;
+    z-index: 0;
+    top:0;
+	left:0; 
+	right:0;
+	bottom:0;
+}
+
+.header {
+    padding-top: 15px;
+    text-align:  center;
+    font-family:'Rubik';
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.yellow_big {
+    color: #ffcb00;
+    font-size: 48px;
+}
+.yellow {
+    color: #ffcb00;
+}
+
+.header p {
+    text-align: center;
+}
+
+.main {
+    margin-top: 20px;
+    display: flex;
+    font-family: 'Rubik';
+
+}
+
+.flak {
+    height: 79px;
+    width: 390px;
+    background: url(img/hit.png) 96% 85% no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.flak p {
+    padding: 24px 0px 0px 125px;
+    font-size: 35px;
+}
+
+.settings {
+    margin-top: 19%;
+    margin-left: 161px;
+}
+
+.setting_parts {
+    width: 85%;
+    margin-top: 20px;
+}
+
+.setting_parts img {
+    padding: 0px 0px 28px 42px;
+}
+
+.setting_parts p {
+    font-size: 25px;
+}
+
+.medals {
+    margin-left: 124px;
+}
+.medals img{
+    margin-top: 50px;
+    margin-left: 37px;
+}
+
+.center {
+
+}
+
+.item {    
+    height: 75%;
+    width: 700px;
+    background-image: url(img/clock.png),  url(img/price.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 90px -45px, 0px 440px;
+    background-size: 85%, 100%;
+
+    
+}
+.sale {
+    position: absolute;
+    height: 300px; width: 300px;
+    background: url(img/sale.png) 50% 50% no-repeat;
+    background-size: cover;
+    font-size: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px; 
+}
+
+.price {
+    padding-top: 478px;
+    font-size: 37px;
+    text-align: center;
+}
+
+.cross {
+    text-decoration: line-through;
+    margin-right: 250px;
+}
+.timer {
+    text-align: center;
+}
+.timer button {
+    padding: 20px 70px;
+    background: #ffcb00;
+    border: none;
+    font-size: 40px;
+}
+
+.timer button:hover{
+    background: #ffa800;
+}
+
+.right {
+    margin-top: 95px;
+}
+.rating {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+}
+.rating img {
+    margin-bottom: 20px;
+}
+.rating p {
+    margin-top: 5px;
+}
+
+.rating button {
+    margin-top: 20px;
+    padding: 5px 27px;
+    color: #ffffff;
+    background: none;
+    border: 5px solid #ffcb00;
+}
+
+.rating button:hover {
+    background: #ffcb00;
+    border: 5px solid #ffcb00;
+}
+
+.deliver {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.options {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 24px;
+    text-align: unset;
+}
+
+.options_parts {
+    display: flex;
+    margin-top: 20px;
+}
+
+.feedback {
+    position: absolute;
+    display: none;
+    width: 40em; height: 30em; 
+    margin: 10% 35%;
+    z-index: 9;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Rubik';
+    color: #000000;
+    font-weight: 500;
+}
+.feedback img{
+    width: 30em;
+}
+.before {
+    width: 20px; 
+    background: url(img/button_left.png) no-repeat;
+}
+
+.after {    
+    width: 20px;
+    background: url(img/button_right.png) no-repeat;
+}
+.feedback_main {
+    background: #ffffff;
+    width: 480px;
+}
+.feedback_main p {
+    margin-top: 20px;
+    color: #000000;
+    font-weight: 100;
+}
+
+.feedback_text {
+    padding: 20px 22px;
+}
+
+.arrow {
+    width: 54px;
+    margin-top: 20%;
+}
+.form {
+    position: absolute;
+    display: none;
+    height: 30em; 
+    margin: 10% 35%;
+    z-index: 9;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    background: url(img/fon_form.png) no-repeat;
+    background-size: 100%;
+}
+.form_text {
+    width: 400px;
+    margin: 20px 30px;
+    font-family: 'Rubik';
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.form_example {
+    font-family: 'Rubik';
+    font-size: 20px;
+
+}
+
+.form_input {
+    padding: 15px 50px;
+    margin: 18px 0;
+}
+
+.x1,.x2 {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    display: flex;
+    border: #ffffff;
+    background: #ffcb00;
+}
